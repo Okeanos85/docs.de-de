@@ -16,7 +16,7 @@ ms.lasthandoff: 05/04/2018
 ms.locfileid: "33603599"
 ---
 # <a name="-operator-visual-basic"></a>=-Operator (Visual Basic)
-Weist einen Wert an eine Variable oder eine Eigenschaft an.  
+Weist einen Wert einer Variable oder Eigenschaft zu.  
   
 ## <a name="syntax"></a>Syntax  
   
@@ -32,7 +32,7 @@ variableorproperty = value
  Ein Literal, eine Konstante oder ein Ausdruck.  
   
 ## <a name="remarks"></a>Hinweise  
- Das Element auf der linken Seite des Gleichheitszeichens (`=`) kann eine einfache Skalarvariable, eine Eigenschaft oder ein Element eines Arrays sein. Die Variable oder Eigenschaft kann nicht [ReadOnly](../../../visual-basic/language-reference/modifiers/readonly.md). Die `=` -Operator weist den Wert auf der rechten Seite der Variablen oder Eigenschaft auf der linken Seite.  
+ Das Element auf der linken Seite des Gleichheitszeichens (`=`) kann eine einfache Skalarvariable, eine Eigenschaft oder ein Element eines Arrays sein. Die Variable oder Eigenschaft darf nicht [ReadOnly](../../../visual-basic/language-reference/modifiers/readonly.md) sein. Der `=` -Operator weist den Wert auf der rechten Seite der Variablen oder Eigenschaft auf der linken Seite.  
   
 > [!NOTE]
 >  Die `=` Operator wird auch als Vergleichsoperator verwendet. Weitere Informationen finden Sie unter [Vergleichsoperatoren](../../../visual-basic/language-reference/operators/comparison-operators.md).  
@@ -41,7 +41,7 @@ variableorproperty = value
  Die `=` Operator kann nur als relationalen Vergleichsoperator und nicht als Zuweisungsoperator überladen werden. Weitere Informationen finden Sie unter [Operatorprozeduren](../../../visual-basic/programming-guide/language-features/procedures/operator-procedures.md).  
   
 ## <a name="example"></a>Beispiel  
- Im folgende Beispiel wird veranschaulicht, den Zuweisungsoperator. Der Wert auf der rechten Seite ist die Variable auf der linken Seite zugewiesen.  
+ Im folgende Beispiel wird veranschaulicht, wie der Zuweisungsoperator verwendet wird. Der Wert auf der rechten Seite wird der Variablen auf der linken Seite zugewiesen.  
   
  [!code-vb[VbVbalrOperators#9](../../../visual-basic/language-reference/operators/codesnippet/VisualBasic/assignment-operator_1.vb)]  
   
